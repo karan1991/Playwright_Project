@@ -41,13 +41,7 @@ export default defineConfig({
   use: {
     browserName: 'chromium',  // no channel needed
   }
-}
-
-    {
-      name: 'setup',                         
-      testMatch: /auth.setup.js/,
-      use: { ...devices['Desktop Firefox'] },
-    },
+},
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'],
