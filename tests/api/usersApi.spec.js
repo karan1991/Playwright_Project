@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { UserService } from '../../services/userservice';
+import { UserService } from '../../services/userService';
 const schema = require('../../schema/userSchema.json');
 import Ajv from 'ajv';
 require('dotenv').config();
